@@ -30,7 +30,7 @@ const GetStarted = () => {
 
   return (
     <section id='GetStarted' className='md:h-screen grid grid-cols-1 md:grid-cols-2'>
-      <div className={`${submitted ? 'hidden' : ''} my-auto p-6 md:p-16 order-last md:order-1`}>
+      <div className={`${submitted ? 'hidden' : ''} my-auto p-6 py-16 md:p-16 order-last md:order-1`}>
         <h3 className='text-3xl font-bold uppercase mb-10'>Get started now</h3>
         <form ref={form} id='ContactForm' onSubmit={sendEmail} className='grid sm:grid-cols-2 grid-cols-1 gap-4'>
           <input type='text' name='firstname' id='firstname' placeholder='First Name' className='p-4 bg-gray-100 rounded-md'/>

@@ -23,7 +23,7 @@ const Navbar = () => {
           <RxCross1 size={30} className={active? 'cursor-pointer' : 'hidden'}/>
         </div>
       </div>
-      <div className={active? 'h-full w-full p-6 md:p-16 py-16 bg-white rounded-md flex flex-col gap-6 justify-between items-center uppercase' : 'hidden'}>
+      <div onClick={() => setActive(prev => !prev)} className={active? 'h-full w-full p-6 md:p-16 py-16 bg-white rounded-md flex flex-col gap-6 justify-between items-center uppercase' : 'hidden'}>
             <ul className='flex flex-col items-center justify-around gap-6 w-full'>
               <a href="./"><li className='border-b-2 border-transparent hover:border-b-2 hover:border-black py-2 px-2'>Home</li></a>
               <a href="#AboutMe"><li className='border-b-2 border-transparent hover:border-b-2 hover:border-black py-2 px-2'>About me</li></a>
