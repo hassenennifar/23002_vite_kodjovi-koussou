@@ -7,7 +7,7 @@ const Navbar = () => {
   const [active, setActive] = useState(false)
 
   return (
-    <nav className={`sm:p-16 p-6 xl:max-w-[1280px] w-full xl:m-auto  ${active? 'bg-white absolute top-0 left-0 h-screen' : ''}`}>
+    <nav className={`sm:p-16 p-6 xl:max-w-[1280px] w-full xl:m-auto  ${active? 'bg-white absolute top-0 left-0 h-screen overflow-hidden' : ''}`}>
       <div className='flex justify-between items-center'>
         <a href="#home" className='font-semibold uppercase text-xl'>Kodjovi Koussou</a>
         <div className='hidden md:flex md:gap-6 md:items-center md:uppercase'>
