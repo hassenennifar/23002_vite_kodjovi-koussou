@@ -17,7 +17,7 @@ const Hero = () => {
       </div>
 
       
-      <a href="https://www.instagram.com/nonokoussoufans" target="_blank" className=' bg-black hover:bg-white p-5 rounded-full text-white hover:text-black'>
+      <a href="https://www.instagram.com/nonokoussoufans" target="_blank" className='hidden md:bg-black md:hover:bg-white md:p-5 md:rounded-full md:text-white md:hover:text-black'>
           <SiInstagram className="text-4xl"/>
       </a>
       
