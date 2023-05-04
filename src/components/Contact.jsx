@@ -9,7 +9,7 @@ const Contact = () => {
             
                 <h3 className='text-3xl font-bold uppercase'>Contact</h3>
                 <ul className='flex flex-wrap gap-16 justify-center items-center w-full'>
-                    <a href='https://wa.me/4917681376910' target='_blank' className=''>
+                    <a href='https://wa.me/491768123456' target='_blank' className=''>
                         <li className='flex flex-col justify-center items-center gap-4 w-[250px] py-6 hover:text-white hover:bg-black rounded-lg'>
                             <SiWhatsapp className='text-5xl'/>
                             <p className='text-2xl font-semibold'>WhatsApp</p>
