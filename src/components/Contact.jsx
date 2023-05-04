@@ -5,7 +5,7 @@ import { SiWhatsapp, SiInstagram, SiMaildotru, SiTiktok } from 'react-icons/si';
 const Contact = () => {
   return (
     <section id='Contact' className='flex-1 h-full bg-gray-400'>
-        <div className=' bg-slate-100 flex flex-col justify-center items-center h-full md:px-48 gap-48 px-6 py-16'>
+        <div className=' bg-slate-100 flex flex-col justify-center items-center h-full md:px-48 md:gap-48 gap-16 px-6 py-16'>
             
                 <h3 className='text-3xl font-bold uppercase'>Contact</h3>
                 <ul className='flex flex-wrap gap-16 justify-center items-center w-full'>
