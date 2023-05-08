@@ -13,14 +13,14 @@ const GetStarted = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(import.meta.env.VITE_EMAILJS_SERVICE_ID, import.meta.env.VITE_EMAILJS_ADMIN_TEMPLATE_ID, form.current, import.meta.env.VITE_EMAILJS_PUBLIC_KEY)
+    emailjs.sendForm(import.meta.env.VITE_EMAILJS_SERVICE_ID, import.meta.env.VITE_EMAILJS_ADMIN_TEMPLATE_ID, form.current, 'Ehti-LHCaxse-Td2b')
         .then((result) => {
             console.log(result.text);
         }, (error) => {
             console.log(error.text);
         });
 
-    emailjs.sendForm(import.meta.env.VITE_EMAILJS_SERVICE_ID, import.meta.env.VITE_EMAILJS_USER_TEMPLATE_ID, form.current, import.meta.env.VITE_EMAILJS_PUBLIC_KEY)
+    emailjs.sendForm(import.meta.env.VITE_EMAILJS_SERVICE_ID, import.meta.env.VITE_EMAILJS_USER_TEMPLATE_ID, form.current, 'Ehti-LHCaxse-Td2b')
     .then((result) => {
         console.log(result.text);
     }, (error) => {
